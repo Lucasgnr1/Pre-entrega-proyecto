@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*######Body-Header-Nav-Main-Footer######*/
+body{
+ background-color: antiquewhite;
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+.barnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; 
+   
+}
+nav a{ 
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 0 10px;
+
+
+    
+    padding: 10px 10px; /* Espacio interno para que el borde no quede pegado al texto */
+    border: 2px solid transparent; /* Borde invisible por defecto para evitar que el tamaño cambie al hacer hover */
+    transition: border-color 0.3s ease; /* Para una transición suave */
+    
+}
+
+nav a:hover{
+    border-color: #ff6666; /* Borde rojo visible al pasar el mouse */
+    background-color: #ff6666;
+}
+
+
+
+
+main{
+background-color: azure;
+}
+
+footer{
+    background-color: antiquewhite;
+}
